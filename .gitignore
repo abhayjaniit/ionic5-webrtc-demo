@@ -41,6 +41,11 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Ionic & Angular Dependency directories
+platforms/
+plugins/
+www/
+
 # TypeScript v1 declaration files
 typings/
 
