@@ -42,7 +42,7 @@ node_modules/
 jspm_packages/
 
 # Ionic & Angular Dependency directories
-platforms/
+platfoms/
 plugins/
 www/
 

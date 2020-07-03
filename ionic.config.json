@@ -1,0 +1,7 @@
+{
+  "name": "webrtc-demo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
