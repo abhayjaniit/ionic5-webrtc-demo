@@ -14,13 +14,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 const config = {
-  apiKey: "AIzaSyD7QV36mIsgWvTT5IWmF8bh6ggj-KyOfxI",
-  authDomain: "mychatapp-ed842.firebaseapp.com",
-  databaseURL: "https://mychatapp-ed842.firebaseio.com",
-  projectId: "mychatapp-ed842",
-  storageBucket: "mychatapp-ed842.appspot.com",
-  messagingSenderId: "789512888811",
-  appId: "1:789512888811:web:18b07b92178a546d5eb9ae"
+  apiKey: "xxxxx",
+  authDomain: "xxxxx",
+  databaseURL: "xxxxx",
+  projectId: "xxxxxx",
+  storageBucket: "xxxxxx",
+  messagingSenderId: "xxxxxx",
+  appId: "xxxxxx"
 }
 @NgModule({
   declarations: [AppComponent],
