@@ -15,7 +15,7 @@ npm install
 
 Add android platform 
 ```bash
-ionic cordova platform add android
+$ ionic cordova platform add android
 ```
 Before runnig with the android need to set the permission strings in AndroidManifest.xml here is the strings
 ```bash
@@ -26,22 +26,31 @@ Before runnig with the android need to set the permission strings in AndroidMani
 ```
 Run android 
 ```bash 
-ionic cordova run android
+$ ionic cordova run android
+```
+
+Before add ios platform need to install plugin iOSRTC for the provide upport of webrtc on wkwebview.
+```bash
+$ ionic cordova plugin add cordova-plugin-iosrtc --save
+```
+And also need to install webrtc-adpter.js for the partialy dependency
+```bash
+$ npm i webrtc-adapter --save
 ```
 
 Add ios platform 
 ```bash
-ionic cordova platform add ios
+$ ionic cordova platform add ios
 ```
 
 Run ios 
 ```bash 
-ionic cordova build ios
+$ ionic cordova build ios
 ```
 Open xcode and run you ios app with your device not in emulator. Because ios emulator dose not support camera and your app maybe crash with the emulator.
 app is tested with the android 10, ios 13.
 
 To test app on the browser just serve app using 
 ```bash
-ionic serve
+$ ionic serve
 ```
