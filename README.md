@@ -17,7 +17,13 @@ Add android platform
 ```bash
 ionic cordova platform add android
 ```
-
+Before runnig with the android need to set the permission strings in AndroidManifest.xml here is the strings
+```bash
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
 Run android 
 ```bash 
 ionic cordova run android
