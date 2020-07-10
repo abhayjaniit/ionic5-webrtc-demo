@@ -13,6 +13,8 @@ Install node modules
 npm install
 ```
 
+## Android Setup
+
 Add android platform 
 ```bash
 $ ionic cordova platform add android
@@ -28,6 +30,8 @@ Run android
 ```bash 
 $ ionic cordova run android
 ```
+
+## iOS Setup
 
 Before add ios platform need to install plugin iOSRTC for the provide upport of webrtc on wkwebview.
 ```bash
