@@ -28,7 +28,7 @@
     "@types/dom-mediacapture-record": "^1.0.6",
     "angularfire2": "^5.4.2",
     "cordova-android": "^8.1.0",
-    "cordova-ios": "^4.5.5",
+    "cordova-ios": "^7.0.1",
     "cordova-plugin-android-permissions": "^1.0.2",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
